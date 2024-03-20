@@ -4,13 +4,13 @@
   "description": "",
   "main": "1-os.js",
   "scripts": {
-    "start": "node App3.js",
-    "dev":"nodemon App3.js"
+    "start": "nodemon App3.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.18.3",
     "lodash": "^4.17.21"
   },
   "devDependencies": {
