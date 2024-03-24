@@ -11,6 +11,7 @@ const authorize = require("./authorize");
 
 // For multiple middleware function we should use array
 app.use([logger, authorize]);
+
 app.get("/", (req, res) => {
   res.send("Home");
 });
