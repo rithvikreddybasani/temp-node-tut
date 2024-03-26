@@ -10,4 +10,4 @@ writeFileSync(
   { flag: "a" }
 );
 
-// Here adding makes sure that new content is appended at end
+// Here adding flag makes sure that new content is appended at end
